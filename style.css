@@ -757,3 +757,11 @@ section .faq1{
   padding: 100px 20vw;
   
 }
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  min-height: 10vh;
+  margin: 10px;
+  gap: 10px;
+}
