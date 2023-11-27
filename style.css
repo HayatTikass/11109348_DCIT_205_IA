@@ -746,3 +746,14 @@ h3:hover {
   margin-left: 80px;
   
 }
+
+
+/*------faq--------*/
+section .faq1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  padding: 100px 20vw;
+  
+}
