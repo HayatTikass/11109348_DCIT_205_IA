@@ -410,7 +410,7 @@ a:hover {
   .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/DCIT_205_IA/205/welcomeimg.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/welcomeimg.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -495,7 +495,7 @@ height: 5%;
 /*--------know us----------*/
 .know.us {
   text-align: center;
-  background-image: url(/DCIT_205_IA/205/welcomeimg.jpg); 
+  background-image: url(/images/welcomeimg.jpg); 
   background-size: cover;
   color: #fff; 
   margin-bottom: 30px;
@@ -610,7 +610,7 @@ box-sizing: border-box;
   /*-----vson------*/
   .vision {
     position: relative;
-    background: url('/DCIT_205_IA/205/viss.jpg') center/cover no-repeat;
+    background: url('/images/viss.jpg') center/cover no-repeat;
     color: #fff;
     padding: 50px; 
     text-align: center;
@@ -690,7 +690,7 @@ box-sizing: border-box;
 .sub-organ{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/DCIT_205_IA/205/orgsanisation.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/orgsanisation.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
