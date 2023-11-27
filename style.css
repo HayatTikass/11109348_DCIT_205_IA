@@ -1,0 +1,747 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:  'Poppins', sans-serif;
+  
+}
+
+
+
+.header {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(/DCIT_205_IA/205/background\ .jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:2% 6%;
+}
+
+.logo {
+  width: 300px; 
+  height: auto;
+  margin: 10px;
+  padding-left:18px;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display:inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+
+
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+.nav-links ul li::after{
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: #0d0aca;
+  display:block;
+  margin:auto;
+  transition:0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width:100%;
+}
+
+.text-box {
+  width:90%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+
+.text-box h1 {
+  font-size: 62px;
+  color: #fff;
+}
+
+
+.hero-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #ffcc00; 
+  color: #333; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  background-color: #333; 
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+  transition:1s; 
+}
+
+
+.dropdown {
+  display: inline-block;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  font-weight: bold; 
+  border: none;
+  outline: none;
+  color: white;
+  font-family:  'Poppins', sans-serif;;
+  background-color: inherit;
+  text-align: center;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*------Courses------*/
+
+
+.course {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+
+.course h1 {
+  color: #333;
+  font-size: 36px;
+}
+
+.course .row {
+  display: flex;
+flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+
+.course-col {
+  flex: 0 0 30%; 
+  background-color: #aedadb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  text-align: left;
+}
+
+
+.course-col h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+
+.course-col p {
+  color: #666;
+  font-size: 16px;
+}
+
+
+.course-col a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3728de;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.course-col a:hover {
+  background-color: #0056b3;
+}
+
+@media(max-width:700px){
+   .course .row{
+   flex-direction: column;
+   }
+   .course-col{
+    flex: 0 0 100%;
+    margin: 15px 0;
+   }
+}
+
+
+/*------Facilites-------*/
+
+
+
+.facilities {
+  background-color: #f9f9f9;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap; 
+  width:80%;
+  padding-top:100px ;
+}
+
+
+.facilities h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+
+
+.facilities .row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+/* .facilities-col {
+  flex-basis: 31%; 
+  background-color: #e6e0e0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+  text-align: left;
+  border-radius: 10px;
+} */
+
+.facilities-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.facilities-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.facilities-column{
+  flex-basis: calc(50% - 30px); 
+  margin: 24px;
+
+  padding: 8px;
+}
+
+
+
+.facilities-col h3 {
+  color: #333;
+  font-size: 20px;
+ margin-top: 10px;
+ text-align: left;
+}
+.facilities-col p {
+  color: #666;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;  
+  font-weight: bolder;
+}
+
+
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*-------call to action-------*/
+
+
+.cta {
+  position: relative;
+  height: 500px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/DCIT_205_IA/205/sub-footer.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #090909; 
+  text-align: center;
+  width: 80%;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.cta h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff; 
+  background-color: #007bff; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.video-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+video {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/*------Footer-----------*/
+
+.footer {
+  background-color: #1292c8;
+  color: #3dca6a;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-links {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ffd700; 
+}
+
+
+.icons {
+  margin-top: 20px;
+}
+
+.fa-brands {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #48ba17;
+  transition: color 0.3s ease-in-out;
+}
+
+.fa-brands:hover {
+  color: #7b7448; 
+}
+
+  /*-----------about us page------------------*/
+  .sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/DCIT_205_IA/205/welcomeimg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    
+  }
+.about-col {
+  flex-basis: 48px;
+  padding: 20px 8px;
+}
+
+
+  .sub-header h1{
+    margin-top: 100px;
+  }
+
+  
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+.about-col {
+  flex: 1; 
+  margin: 8px; 
+  box-sizing: border-box;
+}
+
+.about-col h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.about-col p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  line-height: 1.8;
+}
+
+
+.about-col img {
+width: 80%; 
+height: 5%;
+
+  
+}
+  
+
+
+/*-----history---------*/
+
+.brief.history {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+.history-col {
+  margin: 40px; 
+  float: left;
+}
+
+
+.history-col h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.history-col p {
+  font-size: 18px;
+  line-height: 2.5;
+  color: #666;
+}
+
+/*--------know us----------*/
+.know.us {
+  text-align: center;
+  background-image: url(/DCIT_205_IA/205/welcomeimg.jpg); 
+  background-size: cover;
+  color: #fff; 
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 80%;
+  height: 500px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 100px auto;
+}
+
+
+.know.us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
+
+/*-----Location------*/
+.contact-us{
+  width: 80%;
+  margin: auto;
+}
+ 
+.contact-col{
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col div{
+ display: flex; 
+ align-items: center;
+ margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+  font-size: 28px;
+  color:#0056b3;
+  margin: 10px;
+  margin-right: 30px;
+
+}
+
+.contact-col div p{
+  padding: 0;
+
+}
+
+.contact-col div h5{
+  font-size: 20px;
+  margin-bottom:5px ;
+  color: #1f853f;
+}
+
+.contact-col input, .contact-col textarea{
+width: 100%;
+padding: 15px;
+margin-bottom:17px ;
+outline: #0056b3;
+border: 1px solid #7f795a;
+box-sizing: border-box;
+}
+
+/*-----mission-------*/
+
+  .mission {
+    background-color: #f4f4f4;
+    padding: 50px; 
+    overflow: hidden; 
+  
+  }
+
+
+  .missionnn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15%;
+  }
+
+  .mission-col {
+    width: 60%; 
+  }
+
+  .mission-col h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .mission-col p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .miss-col {
+    width: 35%; 
+  }
+
+  .miss-col img {
+    width: 100%;
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+  }
+
+  /*-----vson------*/
+  .vision {
+    position: relative;
+    background: url('/DCIT_205_IA/205/viss.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 50px; 
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 10px;
+  }
+
+  .vision h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .vision p {
+    font-size: 24px; 
+    line-height: 1.6;
+  }
+
+  
+  .vision:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+    
+  .visionnn{
+    padding: 10%;
+  }
+
+
+ /*----dropdown for know us-------*/
+ 
+  .ddown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dbtn {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .ddown-content {
+    display: none;
+    position: absolute;
+    background-color: #7da6c5; 
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .ddown-content a {
+    color: #783434;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+  }
+
+  .ddown-content a:hover {
+    background-color:#96bb5b; 
+  }
+
+  .ddown:hover .ddown-content {
+    display: block;
+  }
+
+/*--------organ-----*/
+.sub-organ{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/DCIT_205_IA/205/orgsanisation.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  
+}
+
+/*-------news and events---------*/
+
+.n&e {
+  text-align: center;
+  padding: 50px 0; 
+}
+
+h1 {
+  color: #007BFF;
+  text-align: center;
+}
+
+.rom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.n&e-col {
+  width: 300px; 
+  text-align: left;
+}
+
+h3 {
+  color: #333; 
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+h3:hover {
+  color: #007BFF; 
+}
+
+.nande-col {
+  width:80% 
+}
+
+  
+
+
+.nande-col img {
+  width: 70%; 
+  border-radius: 8px; 
+  margin-top: 10px; 
+  margin-left: 80px;
+  
+}
