@@ -8,7 +8,7 @@
 
 
 .header {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(/DCIT_205_IA/205/background\ .jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(/images/background\ .jpg);
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -28,6 +28,7 @@ nav {
   height: auto;
   margin: 10px;
   padding-left:18px;
+  background-color: #fff;
 }
 
 .nav-links ul li{
@@ -295,7 +296,7 @@ flex-wrap: wrap;
 .cta {
   position: relative;
   height: 500px;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/DCIT_205_IA/205/sub-footer.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/sub-footer.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
