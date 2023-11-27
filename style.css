@@ -755,7 +755,7 @@ section .faq1{
   flex-direction: column;
   min-height: 50vh;
   padding: 100px 20vw;
-  
+ 
 }
 
 .grid-container{
@@ -764,4 +764,36 @@ section .faq1{
   min-height: 10vh;
   margin: 10px;
   gap: 10px;
+  margin-top: 50px;
+ margin-left: 30px;
+ margin-right: 40px;
 }
+
+  
+  
+
+ 
+
+  .section1 {
+    border: 1px solid #ddd; /* Set border color */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: justify;
+    transition: box-shadow 0.3s;
+  }
+
+  .section1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow on hover */
+  }
+
+  h3 {
+    color: #007BFF; /* Set your desired color for the h3 text */
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+
+  h3:hover {
+    color: #0056b3; /* Set your desired color on hover */
+  }
+
