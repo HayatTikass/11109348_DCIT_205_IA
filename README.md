@@ -7,11 +7,21 @@ The website presents a collection of ten interconnected pages, each designed to 
 
 
 ## SCREENSHOTS
-# P![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/Users/hayat/Desktop/11109348_DCIT_205_IA/screenshot%25201.png?version%253D1701138492156)age1 Page
+
+![Alt text](<screenshot 1.png>)
+
+![ Alt text](<screenshot 2.png>)
+
+![Alt text](<screenshot 3.png>)
+
+![Alt text](<screenshot 4.png>)
+
+![Alt text](<screenshot 5.png>)
 
 
-# Page2 Page
+![Alt text](<screenshot 6 .png>)
 
+![Alt text](<screendhot 7.png>)
 
 # Page3 Page
 
