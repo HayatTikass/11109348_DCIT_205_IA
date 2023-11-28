@@ -23,6 +23,16 @@ The website presents a collection of ten interconnected pages, each designed to 
 
 ![Alt text](<screendhot 7.png>)
 
+![Alt text](screenshot8.png)
+
+![Alt text](<screenshot 9.png>)
+
+
+![Alt text](<screenshot 10.png>)
+
+![Alt text](screenshot11.png)
+
+
 # Page3 Page
 
 
